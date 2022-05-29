@@ -1,0 +1,590 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-29T18:12:53.513Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2189700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Login as a driver",
+        "description": "",
+        "id": "users-should-be-able-to-login;login-as-a-driver",
+        "after": [
+          {
+            "result": {
+              "duration": 111400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1244300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the users enters the login information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enters_the_login_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@driver"
+          },
+          {
+            "name": "@Vy-123"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-29T18:12:53.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1449800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login as a sales manager",
+        "description": "",
+        "id": "users-should-be-able-to-login;login-as-a-sales-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 182200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 527600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDownSalesManager()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1240000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 442800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the users enters the sales manager information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enters_the_sales_manager_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 794200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@sales_manager"
+          },
+          {
+            "name": "@Vy-123"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-29T18:12:53.577Z",
+        "before": [
+          {
+            "result": {
+              "duration": 202200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Login as a store manager",
+        "description": "",
+        "id": "users-should-be-able-to-login;login-as-a-store-manager",
+        "after": [
+          {
+            "result": {
+              "duration": 96800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 213000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 529900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "the users enters the store manager information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enters_the_store_manager_information()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 121800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user should be able to login",
+            "match": {
+              "location": "LoginStepDefs.the_user_should_be_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@store_manager"
+          }
+        ]
+      }
+    ],
+    "name": "Users should be able to login",
+    "description": "",
+    "id": "users-should-be-able-to-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 8
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-29T18:12:53.584Z",
+        "before": [
+          {
+            "result": {
+              "duration": 232400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "Fleet --\u003e Vehicles",
+        "description": "",
+        "id": "navigation-menu;fleet---\u003e-vehicles",
+        "after": [
+          {
+            "result": {
+              "duration": 285800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 177300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 420700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the users enters the sales manager information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enters_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user goes to Fleet, Vehicles",
+            "match": {
+              "location": "NavigationMenuStepDefinitions.the_user_goes_to_Fleet_Vehicles()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 368500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the url should be https://qa3.vytrack.com/entity/Extend_Entity_Carreservation",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 28
+                }
+              ],
+              "location": "NavigationMenuStepDefinitions.the_url_should_be_https_qa_vytrack_com_entity_Extend_Entity_Carreservation(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@nav_menu@sales_manager"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-29T18:12:53.605Z",
+        "before": [
+          {
+            "result": {
+              "duration": 190500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Marketing --\u003e Campaigns",
+        "description": "",
+        "id": "navigation-menu;marketing---\u003e-campaigns",
+        "after": [
+          {
+            "result": {
+              "duration": 135700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 154100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 111900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the users enters the sales manager information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enters_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "the user goes to Marketing, Campaigns",
+            "match": {
+              "location": "NavigationMenuStepDefinitions.the_user_goes_to_Marketing_Campaigns()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367800,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the url should be https://qa3.vytrack.com/campaign",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 28
+                }
+              ],
+              "location": "NavigationMenuStepDefinitions.the_url_should_be_https_qa_vytrack_com_campaign(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@nav_menu"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-29T18:12:53.609Z",
+        "before": [
+          {
+            "result": {
+              "duration": 228900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Activities --\u003e Calendar Events",
+        "description": "",
+        "id": "navigation-menu;activities---\u003e-calendar-events",
+        "after": [
+          {
+            "result": {
+              "duration": 134300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 148800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164500,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the users enters the sales manager information",
+            "match": {
+              "location": "LoginStepDefs.the_users_enters_the_sales_manager_information()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "the user goes to Activities, Calendar Events",
+            "match": {
+              "location": "NavigationMenuStepDefinitions.the_user_goes_to_Activities_Calendar_Events()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 463000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the url should be https://qa3.vytrack.com/calendar/events",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 28
+                }
+              ],
+              "location": "NavigationMenuStepDefinitions.the_url_should_be_https_qa_vytrack_com_calendar_events(Integer)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@nav_menu"
+          }
+        ]
+      }
+    ],
+    "name": "Navigation menu",
+    "description": "",
+    "id": "navigation-menu",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/NavigationMenu.feature",
+    "tags": [
+      {
+        "name": "@login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
